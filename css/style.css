@@ -1,0 +1,512 @@
+body{
+    font-family: "Zen Maru Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.titlescreen {
+    width: 80%;
+    margin: auto;
+}
+
+.gardient-backround{
+    background: linear-gradient(90deg, rgba(238, 212, 255, 1) 0%, rgba(255, 182, 174, 1) 100%);
+    padding: 1%;
+    margin: 0;
+    padding-bottom: 3%
+}
+
+.navigation ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.navigation ul a:hover {
+    color: #765C94;
+}
+
+.headertext {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 45px;
+}
+
+.header {
+    margin-top: 4%;
+}
+
+.btnheader {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1%;
+    padding-bottom: 4%;
+}
+
+.btn {
+    font-size: 20px;
+    border: solid 3px  #765C94;
+    background-color: #EAE6EF;
+    border-radius: 6px;
+    padding: 1%;
+    font-family: "Zen Maru Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bth:hover {
+    border: solid 3px #B0A2C3;
+    background-color: #CDC4D9;
+}
+
+.textblock {
+    width: 85%;
+    margin: auto;
+    background-color: #EAE6EF;
+    border: solid 3px #DDD7E5;
+    border-radius: 6px;
+    padding: 1%;
+    margin-top: 2%;
+}
+
+.textblock p{
+    font-size: 20px;
+}
+
+.footer{
+    margin: auto;
+}
+
+.ftinform{
+    font-size: 22px;
+
+}
+
+.ftinform ul{
+    list-style-type: none;
+    font-size: 22px;
+}
+
+.ftinform li{
+    margin-bottom: 5px;
+}
+
+.wrapft{
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    margin: auto;
+}
+
+hr{
+    color: #765C94;
+    margin-top: 3%;
+}
+
+.titleimg{
+    border: solid 5px #765C94;
+    border-radius: 6px;
+    width: 60%;
+    margin: auto;
+    background-color: #FFFFFF;
+}
+
+.inform{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+.why {
+    margin-top: 1%;
+    width: 90%;
+    margin: auto;
+
+}
+
+.peach{
+    background-color: #EAE6EF;
+    width: 33%;
+    margin: 2%;
+    padding: 1%;
+    border-radius: 10px;
+    border: solid 5px #765C94;
+}
+
+.peach p{
+    font-size: 20px;
+}
+
+.peach img{
+    width: 64px;
+}
+
+.history{
+    background-color: #EAE6EF;
+    width: 80%;
+    border-radius: 10px;
+    margin: auto;
+    padding: 1%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.historytext p{
+    font-size: 25px;
+
+}
+
+.historytext{
+    width: 90%;
+    margin-left: 2%; 
+}
+
+.imghistory{
+    width: 60%;
+    margin-left: 7%;
+    margin: auto;
+    border-radius: 10px;
+    border: solid 5px #765C94;
+}
+
+/*начало стилей в странице с историей*/
+.histblock{
+    width: 80%;
+    margin: auto;
+    background-color: #EAE6EF;
+    border: solid 3px #DDD7E5;
+    border-radius: 6px;
+    padding: 1%;
+    margin-top: 2%;
+}
+
+.pedtext{
+    width: 95%;
+    margin-left: 3%;
+}
+
+.imgped{
+    width: 70%;
+    border: solid 5px #765C94;
+    border-radius: 6px;
+    margin-left: 15%;
+    margin-top: 1%;
+
+}
+.pedagogika{
+    width: 100%;
+
+}
+
+.pedagogika p{
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.antich{
+    width: 100%;
+
+}
+
+.antich p{
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.rus{
+    width: 100%;
+
+}
+
+.rus p{
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+
+/*статьи*/
+.article{
+    margin: 2%;
+    width: 50%;
+    background-color: #EAE6EF;
+    border-radius: 10px;
+}
+
+.wrap{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+}
+
+.imgart{
+    width: 84%;
+    margin-left: 7%;
+    margin-top: 4%;
+    border-radius: 10px;
+    border: solid 5px #765C94;
+}
+
+.textart{
+    width: 95%;
+    margin: auto;
+}
+
+.textart p{
+    font-size: 20px;
+}
+
+.textart h5{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+/*для одной статьи*/
+
+.main{
+    width: 70%;
+    margin: auto;
+    margin-top: 4%;
+}
+
+.main h1{
+    text-shadow: 4px 3px 8px #5D4E80;
+}
+
+.main h2{
+    font-weight: 900;
+}
+
+.text p{
+    font-size: 22px;
+}
+
+.pedleft{
+    border-radius: 10px;
+    border: solid 5px #765C94;
+    float: left;
+    margin-right: 4%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    width: 400px; /* Ширина картинок */
+    transition: 1s; /* Время эффекта */
+}
+
+.pedleft:hover{
+    transform: scale(1.2); /* Увеличиваем масштаб */
+}
+
+.pedright{
+    border-radius: 10px;
+    border: solid 5px #765C94;
+    float: right;
+    margin-left: 4%;
+    margin-bottom: 2%;
+    width: 400px; /* Ширина картинок */
+    transition: 1s; /* Время эффекта */
+}
+
+.pedright:hover{
+    transform: scale(1.2); /* Увеличиваем масштаб */
+}
+
+.pedideas{
+    background-color: #EAE6EF;
+    border: solid 3px #DDD7E5;
+    border-radius: 6px;
+    width: 70%;
+    margin: auto;
+    padding: 0 15px 0 15px;
+}
+
+.schools{
+    background-color: #ffd6e8;
+    border: solid 3px #e0b3c6;
+    border-radius: 6px;
+    width: 70%;
+    margin: auto;
+    padding: 0 15px 0 15px;
+}
+
+.schools p{
+    font-size: 22px;
+}
+
+.schools ul{
+    list-style-type: none;
+    margin-left: 30px;
+
+}
+
+.schools ul li{
+    font-size: 22px;   
+}
+
+
+.schoolleft{
+    border-radius: 10px;
+    border: solid 5px #bc3871;
+    float: left;
+    margin-right: 4%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    width: 400px; /* Ширина картинок */
+    transition: 1s; /* Время эффекта */
+}
+
+.schoolleft:hover{
+    transform: scale(1.2); /* Увеличиваем масштаб */
+}
+
+.schoolright{
+    border-radius: 10px;
+    border: solid 5px #bc3871;
+    float: right;
+    margin-left: 4%;
+    margin-bottom: 2%;
+    margin-top: 0;
+    width: 400px; /* Ширина картинок */
+    transition: 1s; /* Время эффекта */
+}
+
+.schoolright:hover{
+    transform: scale(1.2); /* Увеличиваем масштаб */
+}
+
+.pedideas p{
+    font-size: 22px;
+}
+
+.pedideas ul{
+    list-style-type: disc;
+    margin-left: 30px;
+
+}
+
+.pedideas ul li{
+    font-size: 22px;   
+}
+
+.main ul li{
+    font-size: 22px;
+}
+
+/*квиз*/
+.quiz{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+
+.quiz-box{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    width: 600px;
+    overflow: hidden;
+
+}
+
+.quiz-header{
+    padding: 64px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+ul li{
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+ul li label{
+    cursor: pointer;
+}
+
+.button{
+    background: linear-gradient(90deg, rgba(238, 212, 255, 1) 0%, rgba(255, 182, 174, 1) 100%);
+    border: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    padding: 15px;
+    transition: all 0.5s ease;
+    font-family: "Zen Maru Gothic", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.button:hover{
+    background-color: #765C94;
+}
+
+.button:focus{
+    outline: none;
+    background: linear-gradient(90deg, rgba(238, 212, 255, 1) 0%, rgba(255, 182, 174, 1) 100%);
+}
+
+.button:focus .quiz-box{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    width: 600px;
+    overflow: hidden;
+    font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
